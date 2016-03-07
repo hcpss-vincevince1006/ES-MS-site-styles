@@ -319,33 +319,65 @@ body {
   text-decoration: none; }
 
 
-
-.footer .footer__logo {
-  text-align: center; }
-
-.footer .footer__logo img {
-  height: 3em; }
-
-.footer .footer__info { 
+.footer .footer__address {
   margin-bottom: 1.5em;
 }
 
-.footer .footer__links {
-  margin-bottom: 1.5em; }
+.footer address { 
+  color: rgba(255, 255, 255, 0.81); 
+  font-style: initial;
+}
+
+.footer .footer__address {
+  color: rgba(255, 255, 255, 0.81);
+  line-height: 1.5em;
+  margin: auto;
+  max-width: 35em;
+  margin-bottom: 1.5em;
+}
+
+.footer .footer__address p { max-width: initial; }
+
+@media screen and (min-width: 53.75em) {
+  .footer .footer__address {
+    float: left;
+    margin-left: 25.58941%;
+    margin-right: 6%;
+  }
+
+  .footer .footer__subscribe {
+    float: left;
+    width: 24%;
+    margin-left: 4%;
+  }
+}
+
+.footer .footer__hcpss-logo {
+  text-align: center; 
+  clear: both;
+}
+
+.footer .footer__hcpss-logo img { height: 3em; }
+
+.footer .footer__info p { text-align: initial; }
+
+.footer .footer__info { margin-bottom: 1.5em; }
+
+.footer .footer__links { margin-bottom: 1.5em; }
 
 .footer .footer__links::after {
   clear: both;
   content: "";
   display: table; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 53.75em) {
   .footer .footer__links {
     margin-left: 25.58941%; } }
 
 .footer ul {
   margin-bottom: 1.5em; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 53.75em) {
   .footer ul {
     float: left;
     display: block;
@@ -365,7 +397,7 @@ body {
 .footer li {
   text-align: center; }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 53.75em) {
   .footer li {
     text-align: left; } }
 
@@ -387,8 +419,8 @@ body {
   width: 12em; }
 
 .footer p {
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.81);
+  
   line-height: 1.5em;
   margin: auto;
   max-width: 35em;
@@ -480,6 +512,18 @@ body {
 
 .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
   opacity: 1; }
+
+.footer__btn {
+  text-decoration: none;
+  border-color: rgba(0, 0, 0, 0.17);
+  background-color: rgba(0, 0, 0, 0.17);
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.footer__btn, .footer__btn:hover { color: #fff; }
 
 .centered-navigation {
   background-color: #e7e7e7;
@@ -936,9 +980,11 @@ form.search-google-appliance-search-form {
 .grid-item .field-name-field-event-date {
   color: rgba(51, 51, 51, 0.6); }
 
-.footer-2 .footer__logo img.school-logo {
+.footer-2 .footer-logo img.school-logo {
   height: 3.6em !important;
   margin-top: -15px; }
+
+.footer-2 .footer-logo { float: left; }  
 
 .footer-2 {
   padding-bottom: 10px;
