@@ -318,23 +318,28 @@ body {
 .footer a {
   text-decoration: none; }
 
-.footer .footer-logo {
-  margin-bottom: 2em;
+
+
+.footer .footer__logo {
   text-align: center; }
 
-.footer .footer-logo img {
+.footer .footer__logo img {
   height: 3em; }
 
-.footer .footer-links {
+.footer .footer__info { 
+  margin-bottom: 1.5em;
+}
+
+.footer .footer__links {
   margin-bottom: 1.5em; }
 
-.footer .footer-links::after {
+.footer .footer__links::after {
   clear: both;
   content: "";
   display: table; }
 
 @media screen and (min-width: 40em) {
-  .footer .footer-links {
+  .footer .footer__links {
     margin-left: 25.58941%; } }
 
 .footer ul {
@@ -406,16 +411,16 @@ body {
 .footer-2 a {
   text-decoration: none; }
 
-.footer-2 .footer-logo {
+.footer-2 .footer__logo {
   margin-right: 1em;
   margin-bottom: 1em; }
 
 @media screen and (min-width: 53.75em) {
-  .footer-2 .footer-logo {
+  .footer-2 .footer__logo {
     float: left;
     margin-bottom: 0; } }
 
-.footer-2 .footer-logo img {
+.footer-2 .footer__logo img {
   height: 1.6em; }
 
 .footer-2 ul {
@@ -931,7 +936,7 @@ form.search-google-appliance-search-form {
 .grid-item .field-name-field-event-date {
   color: rgba(51, 51, 51, 0.6); }
 
-.footer-2 .footer-logo img.school-logo {
+.footer-2 .footer__logo img.school-logo {
   height: 3.6em !important;
   margin-top: -15px; }
 
