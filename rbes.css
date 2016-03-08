@@ -318,17 +318,12 @@ body {
 .footer a {
   text-decoration: none; }
 
-
-.footer .footer__address {
-  margin-bottom: 1.5em;
-}
-
 .footer address { 
   color: rgba(255, 255, 255, 0.81); 
   font-style: initial;
 }
 
-.footer .footer__address {
+.footer .footer__info-block {
   color: rgba(255, 255, 255, 0.81);
   line-height: 1.5em;
   margin: auto;
@@ -336,32 +331,30 @@ body {
   margin-bottom: 1.5em;
 }
 
-.footer .footer__address p { max-width: initial; }
+.footer .footer__info-block p { max-width: initial; }
 
-@media screen and (min-width: 53.75em) {
-  .footer .footer__address {
+@media screen and (min-width: 71em) {
+  .footer .footer__info-block {
     float: left;
-    margin-left: 25.58941%;
-    margin-right: 6%;
-  }
-
-  .footer .footer__subscribe {
-    float: left;
-    width: 24%;
-    margin-left: 4%;
+    width: 20em;
+    margin-right: 3%;
   }
 }
 
 .footer .footer__hcpss-logo {
-  text-align: center; 
+  text-align: center;
   clear: both;
+  margin-bottom: 1.5em;
 }
 
 .footer .footer__hcpss-logo img { height: 3em; }
 
 .footer .footer__info p { text-align: initial; }
 
-.footer .footer__info { margin-bottom: 1.5em; }
+.footer .footer__info { 
+  margin-bottom: 1.5em;
+  clear: both;
+}
 
 .footer .footer__links { margin-bottom: 1.5em; }
 
