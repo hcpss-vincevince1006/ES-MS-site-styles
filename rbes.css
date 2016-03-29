@@ -316,14 +316,16 @@ body {
   line-height: 1.5em; }
 
 .footer a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff;
+}
 
 .footer address { 
   color: rgba(255, 255, 255, 0.81); 
   font-style: initial;
 }
 
-.footer .footer__info-block {
+.footer .footer__info-block, .footer__info-block--half {
   color: rgba(255, 255, 255, 0.81);
   line-height: 1.5em;
   margin: auto;
@@ -338,6 +340,11 @@ body {
     float: left;
     width: 20em;
     margin-right: 3%;
+  }
+  .footer .footer__info-block--half {
+    float: left;
+    width: 20em;
+    margin-left: 15%;
   }
 }
 
