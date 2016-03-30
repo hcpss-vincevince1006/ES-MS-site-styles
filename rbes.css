@@ -326,6 +326,10 @@ body {
   font-style: initial;
 }
 
+.footer address strong {
+  font-size: 32px; 
+}
+
 .footer .footer__info-block, 
 .footer__info-block--two-thirds, 
 .footer__info-block--one-third {
